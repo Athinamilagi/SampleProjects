@@ -1,0 +1,119 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body :first-child {
+  margin-right: 0.5rem;
+}
+
+body {
+  display: grid;
+  margin: auto 6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(/images/bg-desktop.svg);
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2.5rem;
+  padding-left: 1rem;
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .content > h1 {
+    padding: 0;
+  }
+}
+.bg_img {
+  max-width: 100%;
+}
+
+.contact_links {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+.contact_links > a {
+  margin-right: 1.5rem;
+  color: white !important;
+  border-radius: 20px;
+  padding: 5px;
+}
+.contact_links > a:hover {
+  color: hsl(300, 69%, 71%) !important;
+  cursor: pointer;
+  border-color: hsl(300, 69%, 71%);
+}
+
+.btn {
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  border: 0 hsl(257, 40%, 49%) solid;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  color: hsl(257, 40%, 49%);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .container {
+    grid-template-columns: auto;
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 0;
+  }
+  .container + img {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+  }
+  body {
+    background-color: none;
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  body > h1 {
+    margin-left: 1rem;
+  }
+  .contact_links {
+    display: flex;
+    justify-content: center;
+  }
+  .content + p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=main.css.map */
