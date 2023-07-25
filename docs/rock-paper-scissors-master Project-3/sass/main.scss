@@ -1,0 +1,185 @@
+$Radial-Gradient1 :hsl(214, 47%, 23%);
+$Radial-Gradient2 :hsl(237, 49%, 15%);
+$paper-gradient1 :hsl(349, 71%, 52%);
+$paper-gradient2 : hsl(349, 70%, 56%);
+$Score-text : hsl(229, 64%, 46%);
+$Dark-text : hsl(229, 25%, 31%);
+
+
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: radial-gradient(circle, $Radial-Gradient1, $Radial-Gradient2);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+
+    & .header_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 2px solid hsl(217, 16%, 45%);
+        border-radius: .5em;
+        width: 45%;
+        margin: 2rem auto;
+
+        & .gameName {
+            margin: 1.3rem 1.5rem;
+        }
+
+        & .scoreBoard {
+            background-color: white;
+            display: flex;
+            border-radius: 5px;
+            width: 40%;
+            margin: 1rem 1.5rem;
+            justify-self: flex-end;
+            justify-content: center;
+
+            & .score_tag {
+                color: $Score-text;
+                padding-top: 1rem;
+                letter-spacing: .1rem;
+                font-weight: 600;
+            }
+
+            & .point {
+                color: $Dark-text;
+                font-size: 3.5rem;
+                padding-bottom: 5px;
+                justify-items: center;
+            }
+        }
+
+        & ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        & li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    & .mainContent {
+        display: grid;
+        position: relative;
+        margin: 4rem auto;
+
+        & .triangle {
+            margin: 6rem auto;
+        }
+
+        & .outer_paper {
+            border: 29px solid hsl(230, 89%, 62%);
+            background-color: white;
+            width: 8%;
+            height: 25%;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 30rem;
+            top: -1.5rem;
+            text-align: center;
+
+            // z-index: -1;
+            & .paper {
+                width: 60%;
+            }
+        }
+
+        & .outer_rock {
+            border: 29px solid hsl(349, 70%, 56%);
+            background-color: white;
+            width: 8%;
+            height: 25%;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 39rem;
+            top: 13rem;
+            text-align: center;
+
+            // z-index: -1;
+            & .rock {
+                width: 70%;
+                height: 70%;
+            }
+        }
+
+        & .outer_scissor {
+            border: 29px solid hsl(40, 84%, 53%);
+            background-color: white;
+            width: 8%;
+            height: 25%;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 49rem;
+            top: -1.5rem;
+            text-align: center;
+
+            // z-index: -1;
+            & .scissor {
+                width: 60%;
+            }
+        }
+    }
+
+    & .rules_btn {
+        position: absolute;
+        right: 4.5rem;
+        bottom: 2rem;
+        letter-spacing: .2rem;
+        background-color: $Radial-Gradient2;
+        color: white;
+        font-size: 1rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 1rem 2.5rem;
+    }
+
+    & .rules_module {
+        display: grid;
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 15% 85%;
+        background-color: white;
+        width: 25%;
+        height: 55%;
+        position: absolute;
+        top: 10rem;
+        left: 36rem;
+        border: 1px solid black;
+        row-gap: 2rem;
+        border-radius: .5rem;
+
+        > p{
+            font-size: 1.5rem;
+            margin: 2rem;
+            font-weight: 700;
+            color: $Dark-text;
+        }
+
+        > .close_btn{
+            margin: 2rem -1rem;
+        }
+
+        > .rules_svg{
+            padding-left: 2.5rem;
+        }
+    }
+}
