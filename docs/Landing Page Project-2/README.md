@@ -28,4 +28,4 @@ To get the project up and running, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/huddle-landing-page.git
+   https://github.com/Athinamilagi/SampleProjects.git
