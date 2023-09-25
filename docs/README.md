@@ -6,21 +6,19 @@ Welcome to my Frontend Mentor project showcase! This repository contains a colle
 
 ### [Qr Component Project - 1](Project-1-Folder)
 
-![Project 1 Screenshot]((https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/iukeubiskdrj479qikjr.jpg)
+![Project 1 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/iukeubiskdrj479qikjr.jpg)
 
 - **Live Demo:** [Project 1 Live Demo](https://athinamilagi.github.io/SampleProjects/docs/QR%20Component%20Project-1/)
-- **GitHub Repository:** [Project 1 Repository](https://github.com/yourusername/Project-1-Repo)
+- **GitHub Repository:** [Project 1 Repository](https://github.com/Athinamilagi/SampleProjects.git)
 
-Description of Project 1.
 
 ### [Landing Page Project -2](Project-2-Folder)
 
 ![Project 2 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/yjly0l5ohx3f2kz6bbvg.jpg)
 
 - **Live Demo:** [Project 2 Live Demo](https://athinamilagi.github.io/SampleProjects/docs/Landing%20Page%20Project-2/index.html))
-- **GitHub Repository:** [Project 2 Repository](https://github.com/yourusername/Project-2-Repo)
+- **GitHub Repository:** [Project 2 Repository](https://github.com/Athinamilagi/SampleProjects.git)
 
-Description of Project 2.
 
 
 ## About Frontend Mentor
