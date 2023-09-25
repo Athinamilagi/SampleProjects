@@ -4,7 +4,7 @@ Welcome to my Frontend Mentor project showcase! This repository contains a colle
 
 ## Projects
 
-### [Qr Component Project - 1](https://github.com/Athinamilagi/SampleProjects/tree/main/docs/QR%20Component%20Project-1))
+### [Qr Component Project - 1](https://github.com/Athinamilagi/SampleProjects/tree/main/docs/QR%20Component%20Project-1)
 
 ![Project 1 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/iukeubiskdrj479qikjr.jpg)
 
