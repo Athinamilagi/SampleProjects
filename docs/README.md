@@ -4,7 +4,7 @@ Welcome to my Frontend Mentor project showcase! This repository contains a colle
 
 ## Projects
 
-### [Qr Component Project - 1](Project-1-Folder)
+### [Qr Component Project - 1](https://github.com/Athinamilagi/SampleProjects/docs/QR Component Project-1)
 
 ![Project 1 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/v1642681547/Challenges/iukeubiskdrj479qikjr.jpg)
 
@@ -12,7 +12,7 @@ Welcome to my Frontend Mentor project showcase! This repository contains a colle
 - **GitHub Repository:** [Project 1 Repository](https://github.com/Athinamilagi/SampleProjects.git)
 
 
-### [Landing Page Project -2](Project-2-Folder)
+### [Landing Page Project -2](https://github.com/Athinamilagi/SampleProjects/docs/Landing Page Project-2)
 
 ![Project 2 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/yjly0l5ohx3f2kz6bbvg.jpg)
 
