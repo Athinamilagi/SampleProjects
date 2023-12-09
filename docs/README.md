@@ -16,7 +16,7 @@ Welcome to my Frontend Mentor project showcase! This repository contains a colle
 
 ![Project 2 Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/yjly0l5ohx3f2kz6bbvg.jpg)
 
-- **Live Demo:** [Project 2 Live Demo](https://athinamilagi.github.io/SampleProjects/docs/Landing%20Page%20Project-2/index.html))
+- **Live Demo:** [Project 2 Live Demo](https://athinamilagi.github.io/SampleProjects/docs/Landing%20Page%20Project-2/index.html)
 - **GitHub Repository:** [Project 2 Repository](https://github.com/Athinamilagi/SampleProjects.git)
 
 
